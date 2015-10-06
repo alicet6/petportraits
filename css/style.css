@@ -16,7 +16,7 @@ h2 {
 }
 
 h3 {
-  color: #40FF00;
+  color: #000000;
 }
 
 img {
@@ -36,6 +36,27 @@ p {
   font-size: 16px;
   margin-left: 30px;
   margin-right: 30px;
+}
+
+/* Main header photo -----------*/
+
+.main-header {
+  padding-top: 170px;
+  height: 800px;
+  background: #ffa949 url('../img/belle.jpg') no-repeat center;
+  background-size: cover;
+}
+
+/* About Me content box ----*/
+.box {
+  background-color: pink;
+  max-width: 700px;
+  height: 150px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0 auto;
+  background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+  background: rgba(204, 204, 204, 0.5);
 }
 
 /* Media Queries --------------- */
