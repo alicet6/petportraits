@@ -1,7 +1,7 @@
 
 body {
   text-align: left;
-  font-family: sans-serif;
+  font-family: 'Catamaran', sans-serif;
 }
 
 h1 {
@@ -42,13 +42,13 @@ p {
 
 .main-header {
   padding-top: 170px;
-  height: 800px;
-  background: #ffa949 url('../img/belle.jpg') no-repeat center;
+  height: 400px;
+  background: #ffa949 url('../img/riley_watermark.jpg') no-repeat center;
   background-size: cover;
 }
 
 /* About Me content box ----*/
-.box {
+.aboutbox {
   background-color: pink;
   max-width: 700px;
   height: 150px;
@@ -104,8 +104,8 @@ p {
 }
 
 .title {
-  color: black;
-  font-size: 1.625rem; /* 26px/16px */
+  color: lightgray;
+  font-size: 3.25rem; /* 26px/16px */
 }
 
 /* Layout styles --- */
