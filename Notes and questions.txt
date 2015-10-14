@@ -6,8 +6,6 @@ Homepage:
 
 - Left align menu.
 
-- Contact form is too wide. Where do I change this?
-
 - How to close up space between "About Me" and paragraph text in transparent box?
 
 - Fix nav menu across top and move title and subtitle to left corner

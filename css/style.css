@@ -2,6 +2,9 @@
 body {
   text-align: left;
   font-family: 'Catamaran', sans-serif;
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 h1 {
@@ -22,6 +25,7 @@ h3 {
 
 img {
   max-width: 100%;
+  height: auto;
   margin-bottom: 20px;
 }
 
@@ -70,7 +74,7 @@ p {
 
 /* Contact Form -------*/
 form {
-  max-width: 600px;
+  max-width: 500px;
   margin: 10px auto;
   padding: 10px 20px;
   background: #blue;
