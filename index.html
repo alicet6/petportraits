@@ -17,8 +17,8 @@
 /* About section */
     $("#lnk-about").click(function () {
       $("html, body").animate({
-        scrollTop: $("#about").offset().top - 100
-      }, 5000);
+        scrollTop: $("#about").offset().top - 20
+      }, 2000);
     });
 /* Pricing section */
 
@@ -71,49 +71,44 @@
 <!--- About Me content starts here --->
 
 <div id="about">
-<h1>About Me</h1>
-<p>
-I am a Louisville-based photographer with over 20 years’ experience. To help give back to the pet adoption community, I donate 10% of every session fee to the Kentucky Humane Society here in Louisville.
-<p>
-When you contact me, I will conduct a pre-session consultation by phone to get to know you and your pets and to determine what type of photos you’d like to do during the session (portrait with you and your pet, portrait of only your pet, action shots, etc). View samples of my pet portraits here.
-<p>
-The session includes up to 2 pets. There is a $50 fee for each additional pet from the same household. Additional pets may take more time and I may enlist your help in getting your pets settled and ready for your session.
-<p>
-A deposit of half of the session cost is to be paid at time of booking to hold your specific date and time. The second half is due at time of the shoot. Cash, check and credit/debit cards are all accepted.
-<p>
-
-<h2>The session fee covers:</h2>
+<h1><center>About The Sessions:</center></h1>
 
   <ul>
-    <li>Travel within 30 miles of zip code 40214. A travel fee of $.56 per mile applies to sessions outside of this area. This is the standard business mileage rate set by the IRS.
+    <li>I am a Louisville-based photographer with over 20 years’ experience. To help give back to the pet adoption community, I donate 10% of every session fee to the Kentucky Humane Society here in Louisville.
+    </li>
+    <li>I will conduct a phone consulation with you to discuss details of the photo shoot to get to know you and your pets and to determine what type of photos you’d like to do during the session (portrait with you and your pet, portrait of only your pet, action shots, etc).
+    </li>
+    <li>Travel within 30 miles of zip code 40214 is included. A travel fee of $.56 per mile applies to sessions outside of this area.
     </li>
     <li>
-    The time necessary to photograph your pet (or you and your pet).
-    </li>
-    <li>The time to edit, color correct and perfect your photos. Black and white conversions are available at no extra charge.
+    The session includes the time necessary to photograph your pet (or you and your pet) and the time to edit, color correct and perfect your photos. Black and white conversions are available at no extra charge.
     </li>
     <li>
-    Uploading up to 50 of the best photos from your session to your private online gallery for your review and selection. A link to your private gallery will be sent to you via email.
+    Up to 50 photos from your session will be uploaded (within two weeks) to your private online gallery for your review and selection. A link to your private gallery will be sent to you via email.
     </li>
     <li>
-    One free 8x10 photo of your choice.
-    </li>
-    <li>
-    A sneak peek of several of your proofs on Alice Thompson Photography’s Facebook page.
-    </li>
-    <li>
-    A CD of up to 5 digital low-resolution watermarked files, sized appropriately for Facebook and other social media use. (Non-commercial, personal/private use only.)
-    </li>
-    <li>
-    The session fee is for time and talent and does not include prints or digital files.
+    A sneak peek of several of your proofs will be shared on Alice Thompson Photography’s Facebook page.
     </li>
   </ul>
 </div>
 
-<!-- JavaScript Calendar ----->
+<!-- Pricing Intro ----->
 <div id="pricing">
-  <p>yo here are my prices</p>
+  <p>Please note: All sessions include one pet. There is a fee of $25 for each additional pet. A deposit of half of the session cost is to be paid at time of booking to hold your specific date and time. The second half is due at time of the shoot. Cash, check and credit/debit cards are all accepted. The session fee is for time and talent and does not include prints or digital files, which may be ordered in the following packages:</p>
 </div>
+
+<!-- Price Packages ----->
+
+  <select id="packages" onchange="changeddl(this)">
+    <option>Choose package</option>
+    <option value="125">Package 1</option>
+    <option value="200">Package 2</option>
+    <option value="300">Package 3</option>
+  </select>
+
+  <div id="divprice"></div>
+
+<!-- JavaScript Calendar ----->
 
 <!-- Contact Form ----->
 <form method="post" action="mailto:alicethompsonphotography@gmail.com">
