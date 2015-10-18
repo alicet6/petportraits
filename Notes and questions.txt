@@ -1,14 +1,15 @@
-About page:
-
-- link from homepage doesn't work
-
-Homepage:
-
-- Left align menu.
+HOMEPAGE:
 
 - How to close up space between "About Me" and paragraph text in transparent box?
 
 - Fix nav menu across top and move title and subtitle to left corner
+
+ABOUT PAGE:
+
+- Close up space under container boxes and "Please note"
+
+- Padding for text inside boxes
+
 
 - Contact form shows this on Submit:
 first_name=Alice&last_name=Thompson&email=alicethompsonphotography%40gmail.com&telephone=5029380334&clientinfo=test+form
