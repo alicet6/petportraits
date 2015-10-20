@@ -1,3 +1,0 @@
-function changeddl($this){
-   $("#divprice").text($this.value>0?("price: $ " + $this.value):"");
-};

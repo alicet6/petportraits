@@ -11,5 +11,10 @@ ABOUT PAGE:
 - Padding for text inside boxes
 
 
-- Contact form shows this on Submit:
-first_name=Alice&last_name=Thompson&email=alicethompsonphotography%40gmail.com&telephone=5029380334&clientinfo=test+form
+
+
+
+Top nav items are reverse order.
+Contact link doesn't work.
+Text padding inside Session boxes.
+***IS SITE RESPONSIVE?***

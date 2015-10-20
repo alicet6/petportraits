@@ -11,6 +11,7 @@
 
 <!--- Start Parallax --->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/pricing.js"></script>
 
 <script>
   $().ready(function () {
@@ -25,6 +26,13 @@
     $("#lnk-pricing").click(function () {
       $("html, body").animate({
         scrollTop: $("#pricing").offset().top - 50
+      }, 1000);
+    });
+/* Contact Form section */
+
+    $("#lnk-contact").click(function () {
+      $("html, body").animate({
+        scrollTop: $("#contact").offset().top - 50
       }, 1000);
     });
 
@@ -51,7 +59,7 @@
       <a href="#" id="lnk-pricing">Pricing</a>
     </li>
     <li>
-      <a href="../PetPortraits/contact.html">Contact</a>
+      <a href="#" id="lnk-contact">Contact</a>
     </li>
   </ul>
 
@@ -63,7 +71,7 @@
       <div class="aboutbox">
         <h3>About Me</h3>
           <p>
-            I am a Louisville-based photographer with over 20 years’ experience. I love meeting four-legged pets of all kinds and getting to know them and their people. I enjoy herding cats (and dogs) to capture their personalities and provide a keepsake in a high-quality photograph. Give me a call! I'd love to work with you and your pet! 
+            I am a Louisville-based photographer with over 20 years’ experience. I love meeting four-legged pets of all kinds and getting to know them and their people. I enjoy herding cats (and dogs) to capture their personalities and provide a keepsake in a high-quality photograph. Give me a call! I'd love to work with you and your pet!
           </p>
       </div>
     </header>
@@ -76,48 +84,57 @@
 <div class="container">
 			<div class ="row">
 				<div class="column column_left">
-          <h2>Phone consultation</h2>
+          <h2>How Do We Get Started?</h2>
+          <div class="containertext">
           I will conduct a phone consulation with you to discuss details of the photo shoot to get to know you and your pets and to determine what type of photos you’d like to do during the session (portrait with you and your pet, portrait of only your pet, action shots, etc).
           <br>
           <br>
           To help give back to the pet adoption community, I donate 10% of every session fee to the <a href="http://www.kyhumane.org/" target="_blank">Kentucky Humane Society</a> here in Louisville, where I volunteer as a photographer.
-        </br>
+          </div>
+          </br>
 				</div>
 				<div class="column column_right">
-          <h2>Travel</h2>
-          Travel within 30 miles of zip code 40214 is included. A travel fee of $.56 per mile applies to sessions outside of this area.
+          <h2>What Else Do I Need To Know?</h2>
+          <div class="containertext">
+          There is a fee of $25 for each additional pet. A deposit of half of the session cost is to be paid at time of booking to hold your specific date and time. The second half is due at time of the shoot. Cash, check and credit/debit cards are all accepted. Session fees are non-refundable. However, I understand that sometimes situations arise that require the need to reschedule a session. As long as you provide 24 hours’ notice, your session can be rescheduled and your deposit will carry over. Please note: a cancellation or rescheduling notice with less than 24 hours’ notice will result in the loss of your deposit.
+          </div>
 				</div>
 				<div class="column column_center">
-          <h2>What the Sessions Include</h2>
-          The session includes the time necessary to photograph your pet (or you and your pet) and the time to edit, color correct and perfect your photos. Black and white conversions are available at no extra charge.
+          <h2>What Does The Session Include?</h2>
+          <div class="containertext">
+          All sessions include one pet. The session includes the time necessary to photograph your pet (or you and your pet) and the time to edit, color correct and perfect your photos. Black and white conversions are available at no extra charge. The session fee is for time and talent and does not include prints or digital files, which may be ordered in the packages listed below.
           <br>
           <br>
-          Up to 50 photos from your session will be uploaded (within two weeks) to your private online gallery for your review and selection. A link to your private gallery will be sent to you via email.
+          Up to 50 photos from your session will be uploaded (within two weeks) to your private online gallery for your review and selection.
+          </div>
         </br>
 				</div>
 			</div>
 		</div>
 </div>
 
-<!-- Pricing Intro ----->
-<div id="pricing">
-  <p>Please note: All sessions include one pet. There is a fee of $25 for each additional pet. A deposit of half of the session cost is to be paid at time of booking to hold your specific date and time. The second half is due at time of the shoot. Cash, check and credit/debit cards are all accepted. The session fee is for time and talent and does not include prints or digital files, which may be ordered in the following packages:</p>
+<!-- Price Packages ----->
+<center>
+<h1>Choose Your Package:</h1>
+
+<div id="description">
 </div>
 
-<!-- Price Packages ----->
-
-  <select id="packages" onchange="changeddl(this)">
+<div>
+  <select id="packages" onchange="update()">
     <option>Choose package</option>
     <option value="125">Package 1</option>
     <option value="200">Package 2</option>
     <option value="300">Package 3</option>
   </select>
+</div>
 
-  <div id="divprice"></div>
+</center>
 
 <!-- JavaScript Calendar ----->
 
 <!-- Contact Form ----->
+<div id="contactform">
 <form method="post" action="mailto:alicethompsonphotography@gmail.com">
 <h1><center>Contact Me to Reserve Your Session!</center></h1>
 
@@ -138,6 +155,7 @@
 
   <input type="submit" class="btn btn-info" value="Submit">
 </form>
+</div>
 
 <!-- Body -->
 
