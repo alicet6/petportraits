@@ -1,6 +1,8 @@
 HOMEPAGE:
 
-- How to close up space between "About Me" and paragraph text in transparent box?
+- How to close up space between "About Me" and paragraph text in transparent box?\
+
+- Fix background image sizing
 
 - Fix nav menu across top and move title and subtitle to left corner
 
@@ -8,7 +10,8 @@ ABOUT PAGE:
 
 - Close up space under container boxes and "Please note"
 
-- Padding for text inside boxes
+** SITE IS NOT RESPONSIVE **
+
 
 
 
