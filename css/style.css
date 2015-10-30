@@ -10,7 +10,7 @@ body {
 h1 {
   font-size: 30px;
   color: lightgray;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 h2 {
@@ -89,7 +89,7 @@ li {
 .aboutbox {
   background-color: gray;
   max-width: 500px;
-  height: 270px;
+  height: 230px;
   padding-top: 2px;
   padding-bottom: 2px;
   margin: 10 0;
