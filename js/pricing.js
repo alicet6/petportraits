@@ -1,18 +1,18 @@
 var packages = [{
   packageid: 0,
-  name: "Package 1",
-  description: "a luxury condo for your pet",
-  price: 125
+  name: "Package 1 - $350",
+  description: "One free 16 x 20 photo of your choice, plus a CD of up to 35 low-resolution watermarked photos, sized appropriately for social media. Also 25% off any additional a la cart products.",
+  price: 350
 }, {
   packageid: 1,
-  name: "Package 2",
-  description: "a luxury boat for your pet",
-  price: 120
+  name: "Package 2 - $250",
+  description: "One free 11 x 14 photo of your choice, plus a CD of up to 25 low-resolution watermarked photos, sized appropriately for social media. Also 20% off any additional a la cart products.",
+  price: 250
 }, {
   packageid: 2,
-  name: "Package 3",
-  description: "a luxury car for your pet",
-  price: 130
+  name: "Package 3 - $125",
+  description: "One free 8 x 10 photo of your choice, plus a CD of up to 10 low-resolution watermarked photos, sized appropriately for social media.",
+  price: 125
 }, {
   packageid: 3,
   name: "Package 4",

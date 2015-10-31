@@ -1,25 +1,15 @@
 HOMEPAGE:
 
-- How to close up space between "About Me" and paragraph text in transparent box?
-
-- Fix background image sizing
-
-- Fix nav menu across top and move title and subtitle to left corner
+- Fix background image sizing 
+** IS NOT RESPONSIVE **
 
 - About Me box: add shading or gradient blend
 
-ABOUT PAGE:
 
-- Close up space under container boxes and "Please note"
+OTHER ISSUES:
 
-** SITE IS NOT RESPONSIVE **
+- JavaScript Pricing Packages - how to add a-la-carte items. (see pricing packages text file)
 
+- jQuery Datepicker doesn't work
 
-
-
-
-
-Top nav items are reverse order.
-Contact link doesn't work.
-Text padding inside Session boxes.
-***IS SITE RESPONSIVE?***
+- Form fields appear in odd format in email client

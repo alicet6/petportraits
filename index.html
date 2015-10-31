@@ -25,15 +25,15 @@
 /* Pricing section */
     $("#lnk-packages").click(function () {
       $("html, body").animate({
-        scrollTop: $("#packages").offset().top - 50
-      }, 1000);
+        scrollTop: $("#packages").offset().top - 300
+      }, 2000);
     });
 
 /* Contact Form section */
     $("#lnk-contactform").click(function () {
       $("html, body").animate({
-        scrollTop: $("#contactform").offset().top - 50
-      }, 1000);
+        scrollTop: $("#contactform").offset().top - 20
+      }, 2000);
     });
 
 });
@@ -46,6 +46,7 @@
     <header id="top" class="main-header">
       <span class="title">Alice Thompson Photography</span>
       <h1>Pet Portraits</h1>
+
 
 <!-- Fixed Nav Bar --->
 <nav class="fixed-nav-bar">
@@ -65,10 +66,6 @@
     </li>
   </ul>
 </nav>
-
-  <!--- Arrow
-    <img class="arrow" src="img/arrow.svg" alt="Down arrow">
-  --->
 
   <!-- About Me box -->
       <div class="aboutbox">
@@ -124,17 +121,12 @@
 </div>
 
 <div>
-  <select id="packages" onchange="update()">
+  <select id="packages" width="300" style="width: 300px" onchange="update()">
     <option>Choose package</option>
-    <option value="125">Package 1</option>
-    <option value="200">Package 2</option>
-    <option value="300">Package 3</option>
   </select>
 </div>
 
 </center>
-
-<!-- JavaScript Calendar ----->
 
 <!-- Contact Form ----->
 <div id="contactform">
@@ -160,8 +152,32 @@
 </form>
 </div>
 
-<!-- Body -->
+<!-- jQuery Calendar Datepicker -->
 
+<div class="datepicker">
+<meta charset="utf-8">
+  <title>jQuery UI Datepicker - Icon trigger</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script>
+  $(function() {
+    $( "#datepicker" ).datepicker({
+      showOn: "button",
+      buttonImage: "images/calendar.gif",
+      buttonImageOnly: true,
+      buttonText: "Select date"
+    });
+  });
+  </script>
+</head>
+
+<p>Date: <input type="text" id="datepicker"></p>
+</div>
+
+<!-- End jQuery Datepicker -->
+
+    <script src="js/pricing.js"></script>
   </body>
-
 </html>

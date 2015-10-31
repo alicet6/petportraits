@@ -138,15 +138,16 @@ li {
   text-align: center;
   color: black;
   font-weight: bold;
-  background-color: gray;
-  width: 200px;
-  height: 100px;
+  background-color: #BB5101;
+  border-radius: 12px;
+  width: 400px;
+  height: 200px;
   margin-bottom: 10px;
 }
 
 select {
-  color: blue;
-  width: 200px;
+  color: black;
+  width: 50%;
   font-size: 16px;
   font-weight: bold;
 }
@@ -177,6 +178,12 @@ select {
   margin-bottom: 30px;
 }
 
+/* jQuery Datepicker -----------*/
+
+.datepicker {
+  width: 50%;
+}
+
 /* Submit button styling --------*/
 .btn {
   -webkit-border-radius: 8;
@@ -185,13 +192,13 @@ select {
   font-family: Arial;
   color: #ffffff;
   font-size: 20px;
-  background: #10a31a;
+  background: #BB5101;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
 
 .btn:hover {
-  background: #3cb0fd;
+  background: #BC631F;
   text-decoration: none;
 }
 
