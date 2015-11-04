@@ -1,7 +1,7 @@
 var packages = [{
   packageid: 0,
   name: "Package 1 - $350",
-  description: "One free 16 x 20 photo of your choice, plus a CD of up to 35 low-resolution watermarked photos, sized appropriately for social media. Also 25% off any additional A la cart products.",
+  description: ["One free 16 x 20 photo of your choice", "a CD of up to 35 low-resolution watermarked photos, sized appropriately for social media", "Also 25% off any additional A la cart products"],
   price: 350
 }, {
   packageid: 1,
@@ -15,8 +15,8 @@ var packages = [{
   price: 125
 }, {
   packageid: 3,
-  name: "Package 4",
-  description: "a luxury house for your pet",
+  name: "Package 4 - A La Carte Items",
+  description: "This is where I want to include the list of A La Carte items - see Notepad document called Pricing Packages",
   price: 140
 }, ];
 
@@ -25,7 +25,7 @@ var select = document.getElementById("packages");
 function update() {
   var y = this.select.value,
     desc = document.getElementById("description");
-  desc.innerText = packages[y].name + " " + packages[y].description;
+    desc.innerText = packages[y].name + " " + packages[y].description;
 }
 
 for (var x = 0; x < packages.length; x++) {

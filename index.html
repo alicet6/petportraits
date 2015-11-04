@@ -5,35 +5,41 @@
   <head>
     <meta charset="utf-8">
     <title>Alice Thompson Photography - Pet Portraits</title>
-<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<link href='https://fonts.googleapis.com/css?family=Catamaran' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Catamaran' rel='stylesheet' type='text/css'>
+<!-- Datepicker ---->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/jquery.datepick.css">
+<script type="text/javascript" src="js/jquery.plugin.js"></script>
+<script type="text/javascript" src="js/jquery.datepicker.js"></script>
+<!-- End Datepicker ---->
+
   </head>
 
-<!--- Start Parallax --->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="js/pricing.js"></script>
 
+<!--- Start Parallax --->
 <script>
   $().ready(function () {
 /* About section */
     $("#lnk-about").click(function () {
       $("html, body").animate({
-        scrollTop: $("#about").offset().top - 20
+        scrollTop: $("#about").offset().top - 0
       }, 2000);
     });
 
 /* Pricing section */
     $("#lnk-packages").click(function () {
       $("html, body").animate({
-        scrollTop: $("#packages").offset().top - 300
+        scrollTop: $("#packages").offset().top - 80
       }, 2000);
     });
 
 /* Contact Form section */
     $("#lnk-contactform").click(function () {
       $("html, body").animate({
-        scrollTop: $("#contactform").offset().top - 20
+        scrollTop: $("#contactform").offset().top - 10
       }, 2000);
     });
 
@@ -44,9 +50,10 @@
 
 <body>
 <!--Header and Title-->
-    <header id="top" class="main-header">
+    <header id="top" class="main-header header-background">
       <span class="title">Alice Thompson Photography</span>
       <h1>Pet Portraits</h1>
+
 
 
 <!-- Fixed Nav Bar --->
@@ -157,29 +164,19 @@
 <!-- jQuery Calendar Datepicker -->
 
 <div class="datepicker">
-<meta charset="utf-8">
-  <title>jQuery UI Datepicker - Icon trigger</title>
-  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
-  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-  <link rel="stylesheet" href="/resources/demos/style.css">
-  <script>
-  $(function() {
-    $( "#datepicker" ).datepicker({
-      showOn: "button",
-      buttonImage: "images/calendar.gif",
-      buttonImageOnly: true,
-      buttonText: "Select date"
-    });
-  });
-  </script>
-</head>
-
-<p>Date: <input type="text" id="datepicker"></p>
+   <p>Date: <input type="text" id="datepicker"></p>
 </div>
 
-<!-- End jQuery Datepicker -->
-
     <script src="js/pricing.js"></script>
+    <script>
+      $(function() {
+        $( "#datepicker" ).datepicker({
+          showOn: "button",
+          buttonImage: "images/calendar.gif",
+          buttonImageOnly: true,
+          buttonText: "Select date"
+        });
+      });
+    </script>
   </body>
 </html>

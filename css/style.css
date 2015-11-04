@@ -47,14 +47,19 @@ p {
 
 /* Main header photo -----------*/
 
+.header-background {
+  background: #666666 url('../img/riley_watermark2.jpg');
+  background-repeat: no-repeat;
+  background-position: center center fixed;
+  background-size: 100% 100%;
+}
+
 .main-header {
-  background-position: center center;
-  background-attachment: fixed;
   padding-top: 170px;
   height: 1000px;
-  background: #666666 url('../img/riley_watermark2.jpg') no-repeat center;
-  background-size: cover;
+  width: 100%;
 }
+
 
 /* Fixed nav bar -----*/
 

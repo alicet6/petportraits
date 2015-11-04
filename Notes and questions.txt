@@ -13,3 +13,5 @@ OTHER ISSUES:
 - jQuery Datepicker doesn't work
 
 - Form fields appear in odd format in email client
+
+- Nav menu changes to list form in small sizes. Change to hamburger menu?
