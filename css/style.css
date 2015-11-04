@@ -99,7 +99,7 @@ li {
   padding-bottom: 2px;
   margin: 10 0;
   background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
-  background: rgba(204, 204, 204, 0.2);
+  background: rgba(204, 204, 204, 0.0);
 }
 
 /* Session Boxes start here  ----*/
@@ -143,7 +143,7 @@ li {
   text-align: center;
   color: black;
   font-weight: bold;
-  background-color: #BB5101;
+  background-color: darkgray;
   border-radius: 12px;
   width: 400px;
   height: 200px;
@@ -152,6 +152,7 @@ li {
 
 select {
   color: black;
+  background-color: #BB5101
   width: 50%;
   font-size: 16px;
   font-weight: bold;
