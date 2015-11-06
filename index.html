@@ -37,7 +37,7 @@
 /* Contact Form section */
     $("#lnk-contactform").click(function () {
       $("html, body").animate({
-        scrollTop: $("#contactform").offset().top - 10
+        scrollTop: $("#contactform").offset().top - 30
       }, 2000);
     });
 
@@ -121,7 +121,7 @@
 
 <!-- Price Packages ----->
 <center>
-  
+
 <h1>Investment:</h1>
 
 <div>
@@ -174,10 +174,19 @@
         <label for="clientinfo">Tell me a little bit about you and your pet:</label>
         <textarea id="info" name="clientinfo"></textarea>
 
-        <label for="sessiontype">What type of session are you interested in? (Indoor, Outdoor, Studio, Action, etc.)</label>
+        <label for="sessiontype">What type of session are you interested in? (Ex: Indoor, Outdoor, Studio, Action, etc.)</label>
         <textarea id="session" name="sessiontype"></textarea>
 
-        <input type="submit" class="btn btn-info" value="Submit">
+        <label for="temperament">Please describe your pet's temperament. (Ex: Skittish, friendly, easily spooked, etc.)</label>
+        <textarea id="temperament" name="temperament"></textarea>
+
+        <label for="irritates">What irritates your pet? (Ex: loud noises, sudden movements, doesn't like ears touched, etc.)</label>
+        <textarea id="irritates" name="irritates"></textarea>
+
+        <label for="needs">Does your pet have any special needs? (Ex: allergies, restricted diet, arthritis, etc.)</label>
+        <textarea id="needs" name="needs"></textarea>
+
+        <center><input type="submit" class="btn btn-info" value="Submit"></center>
         </div>
     </fieldset>
 </form>
