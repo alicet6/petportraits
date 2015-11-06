@@ -8,15 +8,13 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Catamaran' rel='stylesheet' type='text/css'>
 <!-- Datepicker ---->
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<link rel="stylesheet" type="text/css" href="css/jquery.datepick.css">
-<script type="text/javascript" src="js/jquery.plugin.js"></script>
-<script type="text/javascript" src="js/jquery.datepicker.js"></script>
+
 <!-- End Datepicker ---->
 
   </head>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/newpackages.js"></script>
 <script src="js/pricing.js"></script>
 
 <!--- Start Parallax --->
@@ -46,7 +44,7 @@
 });
 </script>
 
-  <!--- End Parallax --->
+<!--- End Parallax --->
 
 <body>
 <!--Header and Title-->
@@ -123,6 +121,7 @@
 
 <!-- Price Packages ----->
 <center>
+  
 <h1>Investment:</h1>
 
 <div>
@@ -130,53 +129,61 @@
     <option>Choose your package</option>
   </select>
 </div>
-
-  <!-- Price Package Description box ----->
+<!-- Price Package Description box ----->
 <div id="description">
 </div>
 
 </center>
 
+<!-- New Price Packages -->
+
+<ul id="package1">
+</ul>
+
+<ul id="package2">
+</ul>
+
+<ul id="package3">
+</ul>
+
+<ul id="package4">
+</ul>
+
 <!-- Contact Form ----->
-<div id="contactform">
-<form method="post" action="mailto:alicethompsonphotography@gmail.com">
-<h1><center>Contact Me to Reserve Your Session!</center></h1>
+<div id="contactform"></div>
+<center>
+<h1>Contact Me:</h1>
+</center>
+<form class="pure-form pure-form-aligned">
+    <fieldset>
+        <div class="pure-control-group">
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Your Name">
+        </div>
 
-  <label for="firstname">First Name:</label>
-  <input type="text" id="firstname" name="first_name">
+        <div class="pure-control-group">
+            <label for="email">Email Address</label>
+            <input id="email" type="email" placeholder="Email Address">
+        </div>
 
-  <label for="lastname">Last Name:</label>
-  <input type="text" id="lastname" name="last_name">
+        <div class="pure-control-group">
+            <label for="telephone">Phone number</label>
+            <input id="telephone" type="tel" placeholder="Telephone">
+        </div>
 
-  <label for="email">Email:</label>
-  <input type="email" id="email" name="email">
+        <label for="clientinfo">Tell me a little bit about you and your pet:</label>
+        <textarea id="info" name="clientinfo"></textarea>
 
-  <label for="telephone">Phone:</label>
-  <input type="tel" id="telephone" name="telephone">
+        <label for="sessiontype">What type of session are you interested in? (Indoor, Outdoor, Studio, Action, etc.)</label>
+        <textarea id="session" name="sessiontype"></textarea>
 
-  <label for="clientinfo">Tell me a little bit about you and your pet:</label>
-  <textarea id="info" name="clientinfo"></textarea>
-
-  <input type="submit" class="btn btn-info" value="Submit">
+        <input type="submit" class="btn btn-info" value="Submit">
+        </div>
+    </fieldset>
 </form>
-</div>
 
 <!-- jQuery Calendar Datepicker -->
 
-<div class="datepicker">
-   <p>Date: <input type="text" id="datepicker"></p>
-</div>
 
-    <script src="js/pricing.js"></script>
-    <script>
-      $(function() {
-        $( "#datepicker" ).datepicker({
-          showOn: "button",
-          buttonImage: "images/calendar.gif",
-          buttonImageOnly: true,
-          buttonText: "Select date"
-        });
-      });
-    </script>
   </body>
 </html>
