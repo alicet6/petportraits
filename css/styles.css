@@ -2,6 +2,47 @@ html,
 body {
     margin: 0;
     padding: 0;
+    text-align: left;
+    font-family: 'Catamaran', sans-serif;
+    width: 100%;
+}
+
+h1 {
+  font-size: 30px;
+  color: lightgray;
+  margin-top: 5px;
+}
+
+h2 {
+  color: #000000;
+  text-align: center;
+  font-size: 20px;
+}
+
+h3 {
+  color: #000000;
+  font-size: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #F3A20B;
+  font-weight: bold;
+}
+
+header {
+  background-color: lightgray;
+}
+
+p {
+  font-size: 16px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 header .navbar-default {
@@ -22,4 +63,152 @@ section {
     background-position: center;
 }
 
-#about {}
+/* About Me content box ----*/
+.aboutbox {
+  background-color: gray;
+  max-width: 500px;
+  height: 230px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin: 10 0;
+  background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+  background: rgba(204, 204, 204, 0.0);
+}
+
+/* Choose Your Package -------*/
+#description {
+  padding: 10px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  background-color: darkgray;
+  border-radius: 12px;
+  width: 400px;
+  height: 200px;
+  margin-bottom: 120px;
+}
+
+select {
+  color: black;
+  background-color: #BB5101
+  width: 50%;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+/* Contact Form -------*/
+  form {
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #blue;
+    border-radius: 8px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea,
+  select {
+    background: rgba(255,255,255,0.1);
+    border: none;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 10px;
+    width: 90%;
+    box-shadow: 0 0px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 20px;
+  }
+
+  /* Submit button styling --------*/
+  .btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #BB5101;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    background: #BC631F;
+    text-decoration: none;
+  }
+
+  /* Media Queries --------------- */
+
+  @media (min-width: 961px) and (max-width: 1600px) {
+    body {
+      background: gray;
+    }
+    p {
+      color: black;
+    }
+  }
+
+  @media (min-width: 701px) and (max-width: 960px) {
+    body {
+      background: gray;
+      margin-top: 0;
+      height: 100vh;
+      background: url(../img/riley_watermark2_500.jpg) no-repeat;
+      background-size: 100% 100%;
+      background-position: center;
+    }
+    p {
+      color: black;
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 700px) {
+    body {
+      background: gray;
+      margin-top: 0;
+      height: 100vh;
+      background: url(../img/riley_watermark2_500.jpg) no-repeat;
+      background-size: 100% 100%;
+      background-position: center;
+    }
+    p {
+      color: black;
+    }
+  }
+
+  @media (max-width: 480px) {
+    body {
+      background: gray;
+      margin-top: 0;
+      height: 100vh;
+      background: url(../img/riley_watermark2_400.jpg) no-repeat;
+      background-size: 100% 100%;
+      background-position: center;
+    }
+    p {
+      color: black;
+    }
+    .main-header {
+      background-image: none;
+    }
+  }
+
+  /* Main Header and Title Styles --- */
+  .main-header {
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .title {
+    color: lightgray;
+    font-size: 3.25rem; /* 26px/16px */
+  }
+
+  /* Layout styles --- */
+  .arrow {
+    width: 50px;
+  }

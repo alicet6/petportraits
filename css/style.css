@@ -102,6 +102,30 @@ li {
   background: rgba(204, 204, 204, 0.0);
 }
 
+/* New Responsive Session Boxes --*/
+
+#wrap {
+   overflow: hidden;
+ }
+ .box {
+   width: 30%;
+   height:100%;
+   padding-bottom: 20%;
+   color: black;
+   position: relative;
+   float: left;
+ }
+ .innerContent {
+   position: absolute;
+   left: 1px;
+   right: 1px;
+   top: 1px;
+   bottom: 1px;
+   background: lightgray;
+   padding: 10px;
+ }
+ /* New Responsive Session Boxes End --*/
+
 /* Session Boxes start here  ----*/
 .containertext {
     padding: 5px 15px;
@@ -133,7 +157,6 @@ li {
 .column_right {
 	float:right;
 }
-
 /* Session Boxes end ----*/
 
 
