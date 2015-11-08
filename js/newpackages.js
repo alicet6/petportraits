@@ -1,3 +1,7 @@
+
+
+
+
 var package1 = [
    "One free 16 x 20 photo of your choice",
    "A CD of up to 35 low-resolution watermarked photos, sized appropriately for social media",
