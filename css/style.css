@@ -51,7 +51,7 @@ p {
   background: #666666 url('../img/riley_watermark2.jpg');
   background-repeat: no-repeat;
   background-position: center center fixed;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .main-header {
