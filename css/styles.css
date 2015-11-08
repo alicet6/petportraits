@@ -16,7 +16,7 @@ h1 {
 h2 {
   color: #000000;
   text-align: center;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 h3 {
@@ -46,19 +46,20 @@ p {
 }
 
 header .navbar-default {
-    color: white;
+    background: #666666;
     background-color: transparent;
     border-color: transparent;
 }
 
 section {
     margin-top: 10px;
+    background-color: #666666;
 }
 
 #kitty {
     margin-top: 0;
     height: 100vh;
-    background: url(../img/riley_watermark2.jpg) no-repeat;
+    background: url(../img/riley_fullsize.jpg) no-repeat;
     background-size: 100% 100%;
     background-position: center;
 }
@@ -155,11 +156,6 @@ select {
   @media (min-width: 701px) and (max-width: 960px) {
     body {
       background: gray;
-      margin-top: 0;
-      height: 100vh;
-      background: url(../img/riley_watermark2_500.jpg) no-repeat;
-      background-size: 100% 100%;
-      background-position: center;
     }
     p {
       color: black;
@@ -169,11 +165,6 @@ select {
   @media (min-width: 481px) and (max-width: 700px) {
     body {
       background: gray;
-      margin-top: 0;
-      height: 100vh;
-      background: url(../img/riley_watermark2_500.jpg) no-repeat;
-      background-size: 100% 100%;
-      background-position: center;
     }
     p {
       color: black;
@@ -183,11 +174,6 @@ select {
   @media (max-width: 480px) {
     body {
       background: gray;
-      margin-top: 0;
-      height: 100vh;
-      background: url(../img/riley_watermark2_400.jpg) no-repeat;
-      background-size: 100% 100%;
-      background-position: center;
     }
     p {
       color: black;

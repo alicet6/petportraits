@@ -1,0 +1,8 @@
+Index2 problems:
+
+- background color - can't change to gray
+- image is stretched
+- About Me box is at the top
+- H2 headers don't change size
+- Google fonts aren't loading
+- Submit button styling isn't loading
