@@ -14,6 +14,35 @@
 
 </head>
 
+<!--- Start Parallax --->
+<script>
+  $().ready(function () {
+/* About section */
+    $("#lnk-about").click(function () {
+      $("html, body").animate({
+        scrollTop: $("#about").offset().top - 0
+      }, 2000);
+    });
+
+/* Pricing section */
+    $("#lnk-packages").click(function () {
+      $("html, body").animate({
+        scrollTop: $("#packages").offset().top - 80
+      }, 2000);
+    });
+
+/* Contact Form section */
+    $("#lnk-contactform").click(function () {
+      $("html, body").animate({
+        scrollTop: $("#contactform").offset().top - 30
+      }, 2000);
+    });
+
+});
+</script>
+
+<!--- End Parallax --->
+
 <body>
     <header>
         <nav class="navbar navbar-default navbar-fixed-top">
@@ -31,7 +60,7 @@
                     <li class="active"><a href="#">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#packages">Packages</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#contactform">Contact</a></li>
                 </ul>
             </div>
             <!--/.nav-collapse -->
