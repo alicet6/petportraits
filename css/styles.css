@@ -1,0 +1,25 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header .navbar-default {
+    color: white;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+section {
+    margin-top: 10px;
+}
+
+#kitty {
+    margin-top: 0;
+    height: 100vh;
+    background: url(../img/riley_watermark2.jpg) no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+#about {}
