@@ -49,7 +49,7 @@ header .navbar-default {
     background: #666666;
     background-color: transparent;
     border-color: transparent;
-      margin-right: 20px;
+    margin-right: 20px;
 }
 
 section {
@@ -57,6 +57,7 @@ section {
     background-color: #666666;
 }
 
+/*
 #kitty {
     margin-top: 0;
     height: 100vh;
@@ -64,6 +65,7 @@ section {
     background-size: 100% 100%;
     background-position: center;
 }
+*/
 
 /* About Me content box ----*/
 .aboutbox {
@@ -72,9 +74,27 @@ section {
   height: 230px;
   padding-top: 2px;
   padding-bottom: 2px;
-  margin: 10 0;
+  margin: 0px 20px 0px 20px;
   background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
   background: rgba(204, 204, 204, 0.0);
+}
+
+/* Smoothscroll slideshow */
+#makeMeScrollable div.scrollableArea *
+{
+	position: relative;
+	display: block
+	float: left;
+	margin: 0;
+	padding: 0;
+	/* If you don't want the images in the scroller to be selectable, try the following
+		block of code. It's just a nice feature that prevent the images from
+		accidentally becoming selected/inverted when the user interacts with the scroller. */
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
 }
 
 /* Choose Your Package -------*/
@@ -148,6 +168,9 @@ select {
   @media (min-width: 961px) and (max-width: 1600px) {
     body {
       background: gray;
+      background-image: url(../img/riley_fullsize.jpg) no-repeat;
+      background-size: 100% 100%;
+      background-position: center;
     }
     p {
       color: black;
@@ -166,6 +189,9 @@ select {
   @media (min-width: 481px) and (max-width: 700px) {
     body {
       background: gray;
+      background-image: url(../img/riley_watermark2_500.jpg) no-repeat;
+      background-size: cover;
+      background-position: center;
     }
     p {
       color: black;
@@ -175,6 +201,9 @@ select {
   @media (max-width: 480px) {
     body {
       background: gray;
+      background-image: url(../img/riley_watermark2_400.jpg) no-repeat;
+      background-size: cover;
+      background-position: center;
     }
     p {
       color: black;
