@@ -1,0 +1,16 @@
+body {
+    margin-top: 50px;
+}
+
+#riley {
+    margin-top: 50px;
+    background: url(../img/riley_fullsize.jpg) no-repeat;
+    background-size: 100% auto;   
+    background-position: top;
+    padding-bottom: 75%;        
+}
+
+#riley h1 {
+    text-align: center;
+    padding: 25px;
+}
