@@ -1,8 +1,7 @@
-Index2 problems:
+Index3 problems:
 
 - background color - can't change to gray
-- image is stretched
-- About Me box is at the top
-- H2 headers don't change size
+- parallax nav - can this still be used?
+- images don't load into scrollable slideshow
 - Google fonts aren't loading
 - Submit button styling isn't loading

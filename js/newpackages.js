@@ -1,7 +1,5 @@
 
 
-
-
 var package1 = [
    "One free 16 x 20 photo of your choice",
    "A CD of up to 35 low-resolution watermarked photos, sized appropriately for social media",
@@ -42,7 +40,18 @@ document.getElementById("package3").innerHTML = html;
 
 var package4 = [
    "Session fee: $175",
-   "A la carte items here"
+   "A la carte items:",
+   "5 x 7 = $14",
+   "8 x 10 = $20",
+   "11 x 14 = $28",
+   "16 x 20 = $40",
+   "24 x 36 = $100",
+   "Gallery canvas wraps:",
+   "8 x 10 = $79.50",
+   "11 x 14 = $97.50",
+   "16 x 20 = $125",
+   "20 x 24 = $150",
+   "24 x 36 = $230"
 ];
 
 var html = "";

@@ -52,6 +52,12 @@ header .navbar-default {
     margin-right: 20px;
 }
 
+header .navbar-brand {
+  font-size: 30px;
+  color: #F3A20B;
+  margin-top: 5px;
+}
+
 section {
     margin-top: 10px;
     background-color: #666666;
@@ -85,7 +91,7 @@ section {
 	position: relative;
 	display: block
 	float: left;
-	margin: 0;
+	margin: 10;
 	padding: 0;
 	/* If you don't want the images in the scroller to be selectable, try the following
 		block of code. It's just a nice feature that prevent the images from
