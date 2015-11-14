@@ -23,3 +23,7 @@ a {
     text-align: center;
     padding: 25px;
 }
+
+col-md-8 {
+  width: 500px;
+}
