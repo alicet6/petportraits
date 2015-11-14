@@ -46,7 +46,7 @@ p {
 }
 
 header .navbar-default {
-    background: #666666;
+    background: #CCCCCC;
     background-color: transparent;
     border-color: transparent;
     margin-right: 20px;
@@ -56,6 +56,19 @@ header .navbar-brand {
   font-size: 30px;
   color: #F3A20B;
   margin-top: 5px;
+}
+
+header .navbar {
+  background: #CCCCCC;
+  width: 100%;
+}
+
+header .navbar-header {
+  background: #CCCCCC;
+}
+
+header .navbar-nav {
+  background: #CCCCCC;
 }
 
 section {
