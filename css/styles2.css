@@ -11,6 +11,10 @@ a {
   font-weight: bold;
 }
 
+.legend header {
+  color: #F3A20B;
+}
+
 .form-control {
   width: 100%;
 }
@@ -21,6 +25,10 @@ a {
 
 .well {
   background-color: #cccccc;
+}
+
+.btn {
+  font-family: 'Catamaran', sans-serif, lightgray;
 }
 
 #riley {

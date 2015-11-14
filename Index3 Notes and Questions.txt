@@ -1,6 +1,0 @@
-Index3 problems:
-
-- Collapsed nav doesn't show nav items (About, Pricing, etc) when collapsed
-- Parallax nav - can this still be used?
-- Need to add scrolly slideshow.
-- Need to add & fix Pricing menu

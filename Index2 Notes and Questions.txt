@@ -1,0 +1,7 @@
+Index2 problems:
+
+- Collapsed nav doesn't show nav items (About, Pricing, etc) when collapsed
+- Parallax nav - can this still be used?
+- How to get rid of About Me text at top of site without changing spacing/padding of boxes underneath large photo
+- Need to add scrolly slideshow
+- Need to add & fix Pricing menu
