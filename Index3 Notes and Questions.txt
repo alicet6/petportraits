@@ -1,7 +1,6 @@
 Index3 problems:
 
-- background color - can't change to gray
-- parallax nav - can this still be used?
-- images don't load into scrollable slideshow
-- Google fonts aren't loading
-- Submit button styling isn't loading
+- Collapsed nav doesn't show nav items (About, Pricing, etc) when collapsed
+- Parallax nav - can this still be used?
+- Need to add scrolly slideshow.
+- Need to add & fix Pricing menu
