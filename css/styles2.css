@@ -1,13 +1,22 @@
 body {
     margin-top: 50px;
+    padding: 0;
+    text-align: left;
+    font-family: 'Catamaran', sans-serif;
+    width: 100%;
+}
+
+a {
+  color: #F3A20B;
+  font-weight: bold;
 }
 
 #riley {
     margin-top: 50px;
     background: url(../img/riley_fullsize.jpg) no-repeat;
-    background-size: 100% auto;   
+    background-size: 100% auto;
     background-position: top;
-    padding-bottom: 75%;        
+    padding-bottom: 75%;
 }
 
 #riley h1 {
