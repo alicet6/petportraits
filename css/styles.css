@@ -205,9 +205,9 @@ section {
   font-weight: bold;
   background-color: darkgray;
   border-radius: 12px;
-  width: 400px;
+  width: 90%;
   height: 200px;
-  margin-bottom: 120px;
+  margin-bottom: 40px;
 }
 
 select {
