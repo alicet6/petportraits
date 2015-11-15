@@ -16,7 +16,7 @@ var packages = [{
 }, {
   packageid: 3,
   name: "Package 4 - A La Carte Items",
-  description: "This is where I want to include the list of A La Carte items - see Notepad document called Pricing Packages",
+  description: "Contact me for a selection of A La Carte items.",
   price: 140
 }, ];
 
