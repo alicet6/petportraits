@@ -27,6 +27,22 @@ a {
   background-color: #cccccc;
 }
 
+#fname.form-control {
+  background-color: #cccccc;
+}
+
+#lname.form-control {
+  background-color: #cccccc;
+}
+
+#email.form-control {
+  background-color: #cccccc;
+}
+
+#phone.form-control {
+  background-color: #cccccc;
+}
+
 .btn {
   font-family: 'Catamaran', sans-serif, lightgray;
 }
